@@ -131,33 +131,34 @@ void setup()
 void loop()
 {
   i += 0.1;
-  /*  if (digitalRead(tiltSensor) == HIGH)
-      shock();*/
+  if (digitalRead(tiltSensor) == HIGH)
+    shock();
 
-  // if (mpu.getMotionInterruptStatus())
+  if (mpu.getMotionInterruptStatus())
+    playSiren(3);
 
   // Print log
-  Serial.print("loop");
-  Serial.println(i);
+  /* Serial.print("loop");
+   Serial.println(i);
 
-  if (mpuFound)
-  {
-    sensors_event_t a, g, temp;
-    mpu.getEvent(&a, &g, &temp);
+   if (mpuFound)
+   {
+     sensors_event_t a, g, temp;
+     mpu.getEvent(&a, &g, &temp);
 
-    Serial.print(">AX:");
-    Serial.println(a.acceleration.x);
-    Serial.print(">AY:");
-    Serial.println(a.acceleration.y);
-    Serial.print(">AZ:");
-    Serial.println(a.acceleration.z);
-    Serial.print(">GX:");
-    Serial.println(g.gyro.x);
-    Serial.print(">GY:");
-    Serial.println(g.gyro.y);
-    Serial.print(">GZ:");
-    Serial.println(g.gyro.z);
-  }
-
+     Serial.print(">AX:");
+     Serial.println(a.acceleration.x);
+     Serial.print(">AY:");
+     Serial.println(a.acceleration.y);
+     Serial.print(">AZ:");
+     Serial.println(a.acceleration.z);
+     Serial.print(">GX:");
+     Serial.println(g.gyro.x);
+     Serial.print(">GY:");
+     Serial.println(g.gyro.y);
+     Serial.print(">GZ:");
+     Serial.println(g.gyro.z);
+   }
+ */
   delay(100);
 }
