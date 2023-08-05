@@ -17,7 +17,7 @@ To build the Earthquake Alarm System, you will need the following components:
 - Resistors and jumper wires
 
 ## Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)
+![Circuit Diagram](assets/images/circuit_diagram.png)
 
 The connections should be made as follows:
 
