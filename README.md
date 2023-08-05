@@ -68,6 +68,6 @@ This project is open-source and licensed under the MIT License. For more informa
 If you want to contribute to this project, please submit a pull request. It will be reviewed before acceptance.
 
 ## Contact
-If you have any questions or suggestions about the project, feel free to email me at example@example.com.
+If you have any questions or suggestions about the project, feel free to email me at seyupaltin@gmail.com.
 
 **Note:** This project is for educational purposes and has not been tested for reliability in real-world use. It is recommended to take necessary precautions and perform testing before using it in real-life scenarios.
