@@ -1,4 +1,4 @@
-# Earthquake Alarm System
+# Earthquake Warning System
 
 ![Circuit Front](assets/images/circuit_front.jpg)
 ![Circuit Back](assets/images/circuit_back.jpg)
